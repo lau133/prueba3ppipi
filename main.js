@@ -191,7 +191,7 @@ cylinder.position.y = -5.9
 
 //pared 
 const loader1 = new THREE.TextureLoader()
-loader1.load('/public/texturas/3182477.jpg', (texture)=>{
+loader1.load('public/texturas/3182477.jpg', (texture)=>{
     material5.map = texture
     
     
@@ -525,4 +525,5 @@ function animate() {
 
 }
 camera.position.z = 25
+
 camera.lookAt(-20, 0, -7); 
