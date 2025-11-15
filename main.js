@@ -359,7 +359,7 @@ loaderFbx.load("/public/modelos/lampara grande barbie.fbx", function(object){
 })
 
 //libros
-loaderFbx.load("/public/modelos/barbie libros.fbx", function(object){
+loaderFbx.load("public/modelos/barbie libros.fbx", function(object){
     object.scale.x=0.05
     object.scale.y=0.05
     object.scale.z=0.05
@@ -373,7 +373,7 @@ object.rotation.y = Math.PI*1.5;
 })
 
 //libros
-loaderFbx.load("/public/modelos/barbie libros.fbx", function(object){
+loaderFbx.load("public/modelos/barbie libros.fbx", function(object){
     object.scale.x=0.05
     object.scale.y=0.05
     object.scale.z=0.05
@@ -527,3 +527,4 @@ function animate() {
 camera.position.z = 25
 
 camera.lookAt(-20, 0, -7); 
+
